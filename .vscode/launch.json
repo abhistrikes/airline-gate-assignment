@@ -1,0 +1,37 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "1. Main study (steps 1-4)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/main.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "2. Computational experiments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/experiments.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "3. Figures",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/figures.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "4. Rebuild the data",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/make_data.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        }
+    ]
+}
